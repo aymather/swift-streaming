@@ -1,6 +1,0 @@
-framework module Pods_udio_udioUITests {
-  umbrella header "Pods-udio-udioUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
