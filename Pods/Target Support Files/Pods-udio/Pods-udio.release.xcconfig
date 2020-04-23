@@ -1,0 +1,12 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/Hue" "${PODS_CONFIGURATION_BUILD_DIR}/LFLiveKit" "${PODS_CONFIGURATION_BUILD_DIR}/NextLevel" "${PODS_CONFIGURATION_BUILD_DIR}/RPCircularProgress" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Hue/Hue.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LFLiveKit/LFLiveKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/NextLevel/NextLevel.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/RPCircularProgress/RPCircularProgress.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -l"c++" -l"z" -framework "AVFoundation" -framework "Alamofire" -framework "AudioToolbox" -framework "Foundation" -framework "Hue" -framework "LFLiveKit" -framework "NextLevel" -framework "RPCircularProgress" -framework "SwiftyJSON" -framework "UIKit" -framework "VideoToolbox"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

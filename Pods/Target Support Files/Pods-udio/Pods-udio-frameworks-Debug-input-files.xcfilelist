@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-udio/Pods-udio-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Hue/Hue.framework
+${BUILT_PRODUCTS_DIR}/LFLiveKit/LFLiveKit.framework
+${BUILT_PRODUCTS_DIR}/NextLevel/NextLevel.framework
+${BUILT_PRODUCTS_DIR}/RPCircularProgress/RPCircularProgress.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

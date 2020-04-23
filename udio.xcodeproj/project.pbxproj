@@ -3,18 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A4A00012450C27300CB8B67 /* Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4A00002450C27300CB8B67 /* Live.swift */; };
+		6A4A00032450CA1B00CB8B67 /* LiveConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4A00022450CA1B00CB8B67 /* LiveConfiguration.swift */; };
+		6A4A00052450CBEF00CB8B67 /* UserStreamingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4A00042450CBEF00CB8B67 /* UserStreamingViewController.swift */; };
 		6A4AFFCE2450B5D900CB8B67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4AFFCD2450B5D900CB8B67 /* AppDelegate.swift */; };
 		6A4AFFD02450B5D900CB8B67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4AFFCF2450B5D900CB8B67 /* SceneDelegate.swift */; };
-		6A4AFFD22450B5D900CB8B67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4AFFD12450B5D900CB8B67 /* ViewController.swift */; };
+		6A4AFFD22450B5D900CB8B67 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4AFFD12450B5D900CB8B67 /* ConnectViewController.swift */; };
 		6A4AFFD52450B5D900CB8B67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4AFFD32450B5D900CB8B67 /* Main.storyboard */; };
 		6A4AFFD72450B5DB00CB8B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A4AFFD62450B5DB00CB8B67 /* Assets.xcassets */; };
 		6A4AFFDA2450B5DB00CB8B67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4AFFD82450B5DB00CB8B67 /* LaunchScreen.storyboard */; };
 		6A4AFFE52450B5DB00CB8B67 /* udioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4AFFE42450B5DB00CB8B67 /* udioTests.swift */; };
 		6A4AFFF02450B5DB00CB8B67 /* udioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4AFFEF2450B5DB00CB8B67 /* udioUITests.swift */; };
+		6A4AFFFF2450B89400CB8B67 /* BroadcastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4AFFFE2450B89400CB8B67 /* BroadcastController.swift */; };
+		795575EE326491DCFF48B626 /* Pods_udio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549D86421F3DA45D9D4B47E3 /* Pods_udio.framework */; };
+		8DB4628D102B3A287788BA8E /* Pods_udio_udioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1DF6AC17B39A7B02E049F3 /* Pods_udio_udioUITests.framework */; };
+		913B8D2FC6A3BB3662F3E3C1 /* Pods_udioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FB94489C7F9FCF1E960FFC /* Pods_udioTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17257215BE3F6A54A8EAD299 /* Pods-udio-udioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-udio-udioUITests.release.xcconfig"; path = "Target Support Files/Pods-udio-udioUITests/Pods-udio-udioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		290F401A0285061C0CFBFB50 /* Pods-udio-udioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-udio-udioUITests.debug.xcconfig"; path = "Target Support Files/Pods-udio-udioUITests/Pods-udio-udioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B1DF6AC17B39A7B02E049F3 /* Pods_udio_udioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_udio_udioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		549D86421F3DA45D9D4B47E3 /* Pods_udio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_udio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BD91F8495153F6239FC753 /* Pods-udio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-udio.release.xcconfig"; path = "Target Support Files/Pods-udio/Pods-udio.release.xcconfig"; sourceTree = "<group>"; };
+		6A4A00002450C27300CB8B67 /* Live.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live.swift; sourceTree = "<group>"; };
+		6A4A00022450CA1B00CB8B67 /* LiveConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveConfiguration.swift; sourceTree = "<group>"; };
+		6A4A00042450CBEF00CB8B67 /* UserStreamingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStreamingViewController.swift; sourceTree = "<group>"; };
 		6A4AFFCA2450B5D900CB8B67 /* udio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = udio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4AFFCD2450B5D900CB8B67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A4AFFCF2450B5D900CB8B67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6A4AFFD12450B5D900CB8B67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A4AFFD12450B5D900CB8B67 /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
 		6A4AFFD42450B5D900CB8B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A4AFFD62450B5DB00CB8B67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A4AFFD92450B5DB00CB8B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,11 @@
 		6A4AFFEB2450B5DB00CB8B67 /* udioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = udioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4AFFEF2450B5DB00CB8B67 /* udioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udioUITests.swift; sourceTree = "<group>"; };
 		6A4AFFF12450B5DB00CB8B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A4AFFFE2450B89400CB8B67 /* BroadcastController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastController.swift; sourceTree = "<group>"; };
+		6F4579E51F013A0B50B69886 /* Pods-udio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-udio.debug.xcconfig"; path = "Target Support Files/Pods-udio/Pods-udio.debug.xcconfig"; sourceTree = "<group>"; };
+		9DA1AE08B754C4351F435376 /* Pods-udioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-udioTests.debug.xcconfig"; path = "Target Support Files/Pods-udioTests/Pods-udioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F608C6CD2331A2768DD0BF8 /* Pods-udioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-udioTests.release.xcconfig"; path = "Target Support Files/Pods-udioTests/Pods-udioTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0FB94489C7F9FCF1E960FFC /* Pods_udioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_udioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795575EE326491DCFF48B626 /* Pods_udio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				913B8D2FC6A3BB3662F3E3C1 /* Pods_udioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DB4628D102B3A287788BA8E /* Pods_udio_udioUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,8 @@
 				6A4AFFE32450B5DB00CB8B67 /* udioTests */,
 				6A4AFFEE2450B5DB00CB8B67 /* udioUITests */,
 				6A4AFFCB2450B5D900CB8B67 /* Products */,
+				EF4C2E1DB0666B350669A641 /* Pods */,
+				89D756791C54805489420891 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +124,10 @@
 		6A4AFFCC2450B5D900CB8B67 /* udio */ = {
 			isa = PBXGroup;
 			children = (
+				6A4AFFFD2450B87F00CB8B67 /* Streaming */,
 				6A4AFFCD2450B5D900CB8B67 /* AppDelegate.swift */,
 				6A4AFFCF2450B5D900CB8B67 /* SceneDelegate.swift */,
-				6A4AFFD12450B5D900CB8B67 /* ViewController.swift */,
+				6A4AFFD12450B5D900CB8B67 /* ConnectViewController.swift */,
 				6A4AFFD32450B5D900CB8B67 /* Main.storyboard */,
 				6A4AFFD62450B5DB00CB8B67 /* Assets.xcassets */,
 				6A4AFFD82450B5DB00CB8B67 /* LaunchScreen.storyboard */,
@@ -128,6 +154,40 @@
 			path = udioUITests;
 			sourceTree = "<group>";
 		};
+		6A4AFFFD2450B87F00CB8B67 /* Streaming */ = {
+			isa = PBXGroup;
+			children = (
+				6A4AFFFE2450B89400CB8B67 /* BroadcastController.swift */,
+				6A4A00002450C27300CB8B67 /* Live.swift */,
+				6A4A00022450CA1B00CB8B67 /* LiveConfiguration.swift */,
+				6A4A00042450CBEF00CB8B67 /* UserStreamingViewController.swift */,
+			);
+			path = Streaming;
+			sourceTree = "<group>";
+		};
+		89D756791C54805489420891 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				549D86421F3DA45D9D4B47E3 /* Pods_udio.framework */,
+				4B1DF6AC17B39A7B02E049F3 /* Pods_udio_udioUITests.framework */,
+				B0FB94489C7F9FCF1E960FFC /* Pods_udioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF4C2E1DB0666B350669A641 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F4579E51F013A0B50B69886 /* Pods-udio.debug.xcconfig */,
+				54BD91F8495153F6239FC753 /* Pods-udio.release.xcconfig */,
+				290F401A0285061C0CFBFB50 /* Pods-udio-udioUITests.debug.xcconfig */,
+				17257215BE3F6A54A8EAD299 /* Pods-udio-udioUITests.release.xcconfig */,
+				9DA1AE08B754C4351F435376 /* Pods-udioTests.debug.xcconfig */,
+				9F608C6CD2331A2768DD0BF8 /* Pods-udioTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A4AFFF42450B5DB00CB8B67 /* Build configuration list for PBXNativeTarget "udio" */;
 			buildPhases = (
+				C269A859A4132F40650D10C4 /* [CP] Check Pods Manifest.lock */,
 				6A4AFFC62450B5D900CB8B67 /* Sources */,
 				6A4AFFC72450B5D900CB8B67 /* Frameworks */,
 				6A4AFFC82450B5D900CB8B67 /* Resources */,
+				E3DDE1F94A4A51E5752A7E01 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A4AFFF72450B5DB00CB8B67 /* Build configuration list for PBXNativeTarget "udioTests" */;
 			buildPhases = (
+				EE6FAE1CF5EB299A274B5538 /* [CP] Check Pods Manifest.lock */,
 				6A4AFFDC2450B5DB00CB8B67 /* Sources */,
 				6A4AFFDD2450B5DB00CB8B67 /* Frameworks */,
 				6A4AFFDE2450B5DB00CB8B67 /* Resources */,
@@ -170,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A4AFFFA2450B5DB00CB8B67 /* Build configuration list for PBXNativeTarget "udioUITests" */;
 			buildPhases = (
+				BEAD6550B18ABEBDF45528F8 /* [CP] Check Pods Manifest.lock */,
 				6A4AFFE72450B5DB00CB8B67 /* Sources */,
 				6A4AFFE82450B5DB00CB8B67 /* Frameworks */,
 				6A4AFFE92450B5DB00CB8B67 /* Resources */,
+				94817DF1962F6E640BFCA0FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,14 +319,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		94817DF1962F6E640BFCA0FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-udio-udioUITests/Pods-udio-udioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-udio-udioUITests/Pods-udio-udioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-udio-udioUITests/Pods-udio-udioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEAD6550B18ABEBDF45528F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-udio-udioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C269A859A4132F40650D10C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-udio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3DDE1F94A4A51E5752A7E01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-udio/Pods-udio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-udio/Pods-udio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-udio/Pods-udio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6FAE1CF5EB299A274B5538 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-udioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A4AFFC62450B5D900CB8B67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A4AFFD22450B5D900CB8B67 /* ViewController.swift in Sources */,
+				6A4AFFD22450B5D900CB8B67 /* ConnectViewController.swift in Sources */,
+				6A4A00052450CBEF00CB8B67 /* UserStreamingViewController.swift in Sources */,
 				6A4AFFCE2450B5D900CB8B67 /* AppDelegate.swift in Sources */,
+				6A4A00032450CA1B00CB8B67 /* LiveConfiguration.swift in Sources */,
 				6A4AFFD02450B5D900CB8B67 /* SceneDelegate.swift in Sources */,
+				6A4A00012450C27300CB8B67 /* Live.swift in Sources */,
+				6A4AFFFF2450B89400CB8B67 /* BroadcastController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +604,7 @@
 		};
 		6A4AFFF52450B5DB00CB8B67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F4579E51F013A0B50B69886 /* Pods-udio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +623,7 @@
 		};
 		6A4AFFF62450B5DB00CB8B67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54BD91F8495153F6239FC753 /* Pods-udio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +642,7 @@
 		};
 		6A4AFFF82450B5DB00CB8B67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DA1AE08B754C4351F435376 /* Pods-udioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +665,7 @@
 		};
 		6A4AFFF92450B5DB00CB8B67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F608C6CD2331A2768DD0BF8 /* Pods-udioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +688,7 @@
 		};
 		6A4AFFFB2450B5DB00CB8B67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290F401A0285061C0CFBFB50 /* Pods-udio-udioUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +709,7 @@
 		};
 		6A4AFFFC2450B5DB00CB8B67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17257215BE3F6A54A8EAD299 /* Pods-udio-udioUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
